@@ -56,4 +56,7 @@ class Player:
                 self.position = self.position - card["value"]
         
         self.position = self.position % 39
-        return board[self.position]
+        p = str(self.position)
+        if len(p) == 1:
+            p = "0" + p
+        return p + ". " + board[self.position]
