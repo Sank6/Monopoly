@@ -141,6 +141,14 @@ community = {
     }
 }
 
+properties = [
+    1, 3, 5, 6, 8, 9, 11, 13, 14, 15, 16, 18, 19, 21, 23, 24, 25, 26, 27, 29, 31, 32, 34, 35, 37, 39
+]
+
+utilities = [
+    12, 28
+]
+
 board = [
     'Go',
     'Old Kent Road',
@@ -175,6 +183,7 @@ board = [
     'Go to Jail',
     'Regent Street',
     'Oxford Street',
+    'Community Chest',
     'Bond Street',
     'Liverpool Street Station',
     'Chance',

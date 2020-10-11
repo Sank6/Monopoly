@@ -1,8 +1,4 @@
 import random
-from aspects.store import *
-
-chance_set = list(chance.values())
-community_set = list(community.values())
 
 def roll(count=0, doubles=0):
     if doubles == 3:
@@ -22,41 +18,75 @@ def roll(count=0, doubles=0):
         return count + roll_count
 
 class Player:
-    def __init__(self):
+    def __init__(self, board):
+        # Board data
+        self.board = board
+        self.board.players.append(self)
+        self.player_id = len(self.board.players)
+
         # Position on the board from 0-39
         self.position = 0
+
+        # Starting money
+        self.money = 1500
+
+        # Status: 1 = Playing, 0 = Out
+        self.status = 1
 
     def move(self):
         dice = roll()
         if dice != False:
-            self.position = (self.position + dice)  % 39
+            self.position = (self.position + dice)  % 40
         else: # Jail
             self.position = 10
         
         if self.position == 30:
             self.position = 10
 
-    def play(self):
-        self.move()
-        location = board[self.position]
+    def pay(self, x):
+        self.money -= x
+        if self.money < 0:
+            self.status = 0
+
+    def chance_community_chest(self):
+        location = self.board.squares[self.position]
 
         pile = None
         if location == "Chance":
-            pile = chance_set
+            pile = "chance_set"
         elif location == "Community":
-            pile = community_set
+            pile = "community_set"
         
         if pile != None:
-            card = pile[0]
-            pile.append(pile[0])
-            pile.pop(0)
-            if (card["action"] == "move" or card["action"] == "move+"):
+            card = getattr(self.board, pile)[0]
+            getattr(self.board, pile).append(card)
+            getattr(self.board, pile).pop(0)
+
+            starting = self.position
+
+            # Movement
+            if card["action"] == "move" or card["action"] == "move+":
                 self.position = card["value"]
-            elif (card["action"] == "back"):
+            elif card["action"] == "back":
                 self.position = self.position - card["value"]
-        
-        self.position = self.position % 39
-        p = str(self.position)
-        if len(p) == 1:
-            p = "0" + p
-        return p + ". " + board[self.position]
+
+            # Money
+            if card["action"] == "move+" and self.position < starting:
+                self.money += 200
+
+            if card["action"] == "pay":
+                self.pay(card["value"])
+            
+            if card["action"] == "receive":
+                self.money += card["value"]
+
+    def play(self):
+        starting = self.position
+        self.move()
+
+        if self.position < starting:
+            self.money += 200
+
+        self.chance_community_chest()
+
+        self.position = self.position % 40
