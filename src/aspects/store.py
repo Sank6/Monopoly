@@ -191,3 +191,162 @@ board = [
     'Super Tax',
     'Mayfair'
 ]
+
+property_info = [
+  {
+    "Colour": "Brown",
+    "Name": "Old Kent Road",
+    "Value (£)": 60,
+    "House price (£)": 30
+  },
+  {
+    "Colour": "Brown",
+    "Name": "Whitechapel Road",
+    "Value (£)": 60,
+    "House price (£)": 30
+  },
+  {
+    "Colour": "Station",
+    "Name": "King's Cross station",
+    "Value (£)": 200,
+    "House price (£)": ""
+  },
+  {
+    "Colour": "Light blue",
+    "Name": "The Angel, Islington",
+    "Value (£)": 100,
+    "House price (£)": 50
+  },
+  {
+    "Colour": "Light blue",
+    "Name": "Euston Road",
+    "Value (£)": 100,
+    "House price (£)": 50
+  },
+  {
+    "Colour": "Light blue",
+    "Name": "Pentonville Road",
+    "Value (£)": 120,
+    "House price (£)": 60
+  },
+  {
+    "Colour": "Pink",
+    "Name": "Pall Mall",
+    "Value (£)": 140,
+    "House price (£)": 70
+  },
+  {
+    "Colour": "Pink",
+    "Name": "Whitehall",
+    "Value (£)": 140,
+    "House price (£)": 70
+  },
+  {
+    "Colour": "Pink",
+    "Name": "Northumberland Avenue",
+    "Value (£)": 160,
+    "House price (£)": 80
+  },
+  {
+    "Colour": "Station",
+    "Name": "Marylebone station",
+    "Value (£)": 200,
+    "House price (£)": ""
+  },
+  {
+    "Colour": "Orange",
+    "Name": "Bow Street",
+    "Value (£)": 180,
+    "House price (£)": 90
+  },
+  {
+    "Colour": "Orange",
+    "Name": "Marlborough Street",
+    "Value (£)": 180,
+    "House price (£)": 90
+  },
+  {
+    "Colour": "Orange",
+    "Name": "Vine Street",
+    "Value (£)": 200,
+    "House price (£)": 100
+  },
+  {
+    "Colour": "Red",
+    "Name": "Strand",
+    "Value (£)": 220,
+    "House price (£)": 110
+  },
+  {
+    "Colour": "Red",
+    "Name": "Fleet Street",
+    "Value (£)": 220,
+    "House price (£)": 110
+  },
+  {
+    "Colour": "Red",
+    "Name": "Trafalgar Square",
+    "Value (£)": 240,
+    "House price (£)": 120
+  },
+  {
+    "Colour": "Station",
+    "Name": "Fenchurch Street station",
+    "Value (£)": 200,
+    "House price (£)": ""
+  },
+  {
+    "Colour": "Yellow",
+    "Name": "Leicester Square",
+    "Value (£)": 260,
+    "House price (£)": 130
+  },
+  {
+    "Colour": "Yellow",
+    "Name": "Coventry Street",
+    "Value (£)": 260,
+    "House price (£)": 130
+  },
+  {
+    "Colour": "Yellow",
+    "Name": "Piccadilly",
+    "Value (£)": 280,
+    "House price (£)": 140
+  },
+  {
+    "Colour": "Green",
+    "Name": "Regent Street",
+    "Value (£)": 300,
+    "House price (£)": 150
+  },
+  {
+    "Colour": "Green",
+    "Name": "Oxford Street",
+    "Value (£)": 300,
+    "House price (£)": 150
+  },
+  {
+    "Colour": "Green",
+    "Name": "Bond Street",
+    "Value (£)": 320,
+    "House price (£)": 160
+  },
+  {
+    "Colour": "Station",
+    "Name": "Liverpool Street station",
+    "Value (£)": 200,
+    "House price (£)": ""
+  },
+  {
+    "Colour": "Dark blue",
+    "Name": "Park Lane",
+    "Value (£)": 350,
+    "House price (£)": 175
+  },
+  {
+    "Colour": "Dark blue",
+    "Name": "Mayfair",
+    "Value (£)": 400,
+    "House price (£)": 200
+  }
+]
