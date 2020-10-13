@@ -194,185 +194,185 @@ board = [
 
 property_info = [
   {
-    "Colour": "Brown",
-    "Index": 1,
-    "Name": "Old Kent Road",
-    "Value (£)": 60,
-    "House price (£)": 30
+    "colour": "Brown",
+    "index": 1,
+    "name": "Old Kent Road",
+    "value": 60,
+    "house_price": 30
   },
   {
-    "Colour": "Brown",
-    "Index": 3,
-    "Name": "Whitechapel Road",
-    "Value (£)": 60,
-    "House price (£)": 30
+    "colour": "Brown",
+    "index": 3,
+    "name": "Whitechapel Road",
+    "value": 60,
+    "house_price": 30
   },
   {
-    "Colour": "Station",
-    "Index": 5,
-    "Name": "King's Cross station",
-    "Value (£)": 200,
-    "House price (£)": ""
+    "colour": "Station",
+    "index": 5,
+    "name": "King's Cross station",
+    "value": 200,
+    "house_price": ""
   },
   {
-    "Colour": "Light blue",
-    "Index": 6,
-    "Name": "The Angel, Islington",
-    "Value (£)": 100,
-    "House price (£)": 50
+    "colour": "Light blue",
+    "index": 6,
+    "name": "The Angel, Islington",
+    "value": 100,
+    "house_price": 50
   },
   {
-    "Colour": "Light blue",
-    "Index": 8,
-    "Name": "Euston Road",
-    "Value (£)": 100,
-    "House price (£)": 50
+    "colour": "Light blue",
+    "index": 8,
+    "name": "Euston Road",
+    "value": 100,
+    "house_price": 50
   },
   {
-    "Colour": "Light blue",
-    "Index": 9,
-    "Name": "Pentonville Road",
-    "Value (£)": 120,
-    "House price (£)": 60
+    "colour": "Light blue",
+    "index": 9,
+    "name": "Pentonville Road",
+    "value": 120,
+    "house_price": 60
   },
   {
-    "Colour": "Pink",
-    "Index": 11,
-    "Name": "Pall Mall",
-    "Value (£)": 140,
-    "House price (£)": 70
+    "colour": "Pink",
+    "index": 11,
+    "name": "Pall Mall",
+    "value": 140,
+    "house_price": 70
   },
   {
-    "Colour": "Pink",
-    "Index": 13,
-    "Name": "Whitehall",
-    "Value (£)": 140,
-    "House price (£)": 70
+    "colour": "Pink",
+    "index": 13,
+    "name": "Whitehall",
+    "value": 140,
+    "house_price": 70
   },
   {
-    "Colour": "Pink",
-    "Index": 14,
-    "Name": "Northumberland Avenue",
-    "Value (£)": 160,
-    "House price (£)": 80
+    "colour": "Pink",
+    "index": 14,
+    "name": "Northumberland Avenue",
+    "value": 160,
+    "house_price": 80
   },
   {
-    "Colour": "Station",
-    "Index": 15,
-    "Name": "Marylebone station",
-    "Value (£)": 200,
-    "House price (£)": ""
+    "colour": "Station",
+    "index": 15,
+    "name": "Marylebone station",
+    "value": 200,
+    "house_price": ""
   },
   {
-    "Colour": "Orange",
-    "Index": 16,
-    "Name": "Bow Street",
-    "Value (£)": 180,
-    "House price (£)": 90
+    "colour": "Orange",
+    "index": 16,
+    "name": "Bow Street",
+    "value": 180,
+    "house_price": 90
   },
   {
-    "Colour": "Orange",
-    "Index": 18,
-    "Name": "Marlborough Street",
-    "Value (£)": 180,
-    "House price (£)": 90
+    "colour": "Orange",
+    "index": 18,
+    "name": "Marlborough Street",
+    "value": 180,
+    "house_price": 90
   },
   {
-    "Colour": "Orange",
-    "Index": 19,
-    "Name": "Vine Street",
-    "Value (£)": 200,
-    "House price (£)": 100
+    "colour": "Orange",
+    "index": 19,
+    "name": "Vine Street",
+    "value": 200,
+    "house_price": 100
   },
   {
-    "Colour": "Red",
-    "Index": 21,
-    "Name": "Strand",
-    "Value (£)": 220,
-    "House price (£)": 110
+    "colour": "Red",
+    "index": 21,
+    "name": "Strand",
+    "value": 220,
+    "house_price": 110
   },
   {
-    "Colour": "Red",
-    "Index": 23,
-    "Name": "Fleet Street",
-    "Value (£)": 220,
-    "House price (£)": 110
+    "colour": "Red",
+    "index": 23,
+    "name": "Fleet Street",
+    "value": 220,
+    "house_price": 110
   },
   {
-    "Colour": "Red",
-    "Index": 24,
-    "Name": "Trafalgar Square",
-    "Value (£)": 240,
-    "House price (£)": 120
+    "colour": "Red",
+    "index": 24,
+    "name": "Trafalgar Square",
+    "value": 240,
+    "house_price": 120
   },
   {
-    "Colour": "Station",
-    "Index": 25,
-    "Name": "Fenchurch Street station",
-    "Value (£)": 200,
-    "House price (£)": ""
+    "colour": "Station",
+    "index": 25,
+    "name": "Fenchurch Street station",
+    "value": 200,
+    "house_price": ""
   },
   {
-    "Colour": "Yellow",
-    "Index": 26,
-    "Name": "Leicester Square",
-    "Value (£)": 260,
-    "House price (£)": 130
+    "colour": "Yellow",
+    "index": 26,
+    "name": "Leicester Square",
+    "value": 260,
+    "house_price": 130
   },
   {
-    "Colour": "Yellow",
-    "Index": 27,
-    "Name": "Coventry Street",
-    "Value (£)": 260,
-    "House price (£)": 130
+    "colour": "Yellow",
+    "index": 27,
+    "name": "Coventry Street",
+    "value": 260,
+    "house_price": 130
   },
   {
-    "Colour": "Yellow",
-    "Index": 29,
-    "Name": "Piccadilly",
-    "Value (£)": 280,
-    "House price (£)": 140
+    "colour": "Yellow",
+    "index": 29,
+    "name": "Piccadilly",
+    "value": 280,
+    "house_price": 140
   },
   {
-    "Colour": "Green",
-    "Index": 31,
-    "Name": "Regent Street",
-    "Value (£)": 300,
-    "House price (£)": 150
+    "colour": "Green",
+    "index": 31,
+    "name": "Regent Street",
+    "value": 300,
+    "house_price": 150
   },
   {
-    "Colour": "Green",
-    "Index": 32,
-    "Name": "Oxford Street",
-    "Value (£)": 300,
-    "House price (£)": 150
+    "colour": "Green",
+    "index": 32,
+    "name": "Oxford Street",
+    "value": 300,
+    "house_price": 150
   },
   {
-    "Colour": "Green",
-    "Index": 34,
-    "Name": "Bond Street",
-    "Value (£)": 320,
-    "House price (£)": 160
+    "colour": "Green",
+    "index": 34,
+    "name": "Bond Street",
+    "value": 320,
+    "house_price": 160
   },
   {
-    "Colour": "Station",
-    "Index": 35,
-    "Name": "Liverpool Street station",
-    "Value (£)": 200,
-    "House price (£)": ""
+    "colour": "Station",
+    "index": 35,
+    "name": "Liverpool Street station",
+    "value": 200,
+    "house_price": ""
   },
   {
-    "Colour": "Dark blue",
-    "Index": 37,
-    "Name": "Park Lane",
-    "Value (£)": 350,
-    "House price (£)": 175
+    "colour": "Dark blue",
+    "index": 37,
+    "name": "Park Lane",
+    "value": 350,
+    "house_price": 175
   },
   {
-    "Colour": "Dark blue",
-    "Index": 39,
-    "Name": "Mayfair",
-    "Value (£)": 400,
-    "House price (£)": 200
+    "colour": "Dark blue",
+    "index": 39,
+    "name": "Mayfair",
+    "value": 400,
+    "house_price": 200
   }
 ]
