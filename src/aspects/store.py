@@ -198,181 +198,207 @@ property_info = [
     "index": 1,
     "name": "Old Kent Road",
     "value": 60,
-    "house_price": 30
+    "house_price": 30,
+    "rent": [2, 10, 30, 90, 160, 250]
   },
   {
     "colour": "Brown",
     "index": 3,
     "name": "Whitechapel Road",
     "value": 60,
-    "house_price": 30
+    "house_price": 30,
+    "rent": [4, 20, 60, 180, 320, 450]
   },
   {
     "colour": "Station",
     "index": 5,
     "name": "King's Cross station",
     "value": 200,
-    "house_price": ""
+    "house_price": None,
+    "rent": None
   },
   {
     "colour": "Light blue",
     "index": 6,
     "name": "The Angel, Islington",
     "value": 100,
-    "house_price": 50
+    "house_price": 50,
+    "rent": [6, 30, 90, 270, 400, 550]
   },
   {
     "colour": "Light blue",
     "index": 8,
     "name": "Euston Road",
     "value": 100,
-    "house_price": 50
+    "house_price": 50,
+    "rent": [6, 30, 90, 270, 400, 550]
   },
   {
     "colour": "Light blue",
     "index": 9,
     "name": "Pentonville Road",
     "value": 120,
-    "house_price": 60
+    "house_price": 60,
+    "rent": [8, 40, 100, 300, 450, 600]
   },
   {
     "colour": "Pink",
     "index": 11,
     "name": "Pall Mall",
     "value": 140,
-    "house_price": 70
+    "house_price": 70,
+    "rent": [10, 50, 150, 450, 625, 750]
   },
   {
     "colour": "Pink",
     "index": 13,
     "name": "Whitehall",
     "value": 140,
-    "house_price": 70
+    "house_price": 70,
+    "rent": [10, 50, 150, 450, 625, 750]
   },
   {
     "colour": "Pink",
     "index": 14,
     "name": "Northumberland Avenue",
     "value": 160,
-    "house_price": 80
+    "house_price": 80,
+    "rent": [12, 60, 180, 500, 700, 900]
   },
   {
     "colour": "Station",
     "index": 15,
     "name": "Marylebone station",
     "value": 200,
-    "house_price": ""
+    "house_price": None,
+    "rent": None
   },
   {
     "colour": "Orange",
     "index": 16,
     "name": "Bow Street",
     "value": 180,
-    "house_price": 90
+    "house_price": 90,
+    "rent": [14, 70, 200, 550, 750, 950]
   },
   {
     "colour": "Orange",
     "index": 18,
     "name": "Marlborough Street",
     "value": 180,
-    "house_price": 90
+    "house_price": 90,
+    "rent": [14, 70, 200, 550, 750, 950]
   },
   {
     "colour": "Orange",
     "index": 19,
     "name": "Vine Street",
     "value": 200,
-    "house_price": 100
+    "house_price": 100,
+    "rent": [16, 80, 220, 600, 800, 1000]
   },
   {
     "colour": "Red",
     "index": 21,
     "name": "Strand",
     "value": 220,
-    "house_price": 110
+    "house_price": 110,
+    "rent": [18, 90, 250, 700, 875, 1050]
   },
   {
     "colour": "Red",
     "index": 23,
     "name": "Fleet Street",
     "value": 220,
-    "house_price": 110
+    "house_price": 110,
+    "rent": [18, 90, 250, 700, 875, 1050]
   },
   {
     "colour": "Red",
     "index": 24,
     "name": "Trafalgar Square",
     "value": 240,
-    "house_price": 120
+    "house_price": 120,
+    "rent": [20, 100, 300, 750, 925, 1100]
   },
   {
     "colour": "Station",
     "index": 25,
     "name": "Fenchurch Street station",
     "value": 200,
-    "house_price": ""
+    "house_price": None,
+    "rent": None
   },
   {
     "colour": "Yellow",
     "index": 26,
     "name": "Leicester Square",
     "value": 260,
-    "house_price": 130
+    "house_price": 130,
+    "rent": [22, 110, 330, 800, 975, 1150]
   },
   {
     "colour": "Yellow",
     "index": 27,
     "name": "Coventry Street",
     "value": 260,
-    "house_price": 130
+    "house_price": 130,
+    "rent": [22, 110, 330, 800, 975, 1150]
   },
   {
     "colour": "Yellow",
     "index": 29,
     "name": "Piccadilly",
     "value": 280,
-    "house_price": 140
+    "house_price": 140,
+    "rent": [22, 120, 360, 850, 1025, 1200]
   },
   {
     "colour": "Green",
     "index": 31,
     "name": "Regent Street",
     "value": 300,
-    "house_price": 150
+    "house_price": 150,
+    "rent": [26, 130, 390, 900, 1100, 1275]
   },
   {
     "colour": "Green",
     "index": 32,
     "name": "Oxford Street",
     "value": 300,
-    "house_price": 150
+    "house_price": 150,
+    "rent": [26, 130, 390, 900, 1100, 1275]
   },
   {
     "colour": "Green",
     "index": 34,
     "name": "Bond Street",
     "value": 320,
-    "house_price": 160
+    "house_price": 160,
+    "rent": [28, 150, 450, 1000, 1200, 1400]
   },
   {
     "colour": "Station",
     "index": 35,
     "name": "Liverpool Street station",
     "value": 200,
-    "house_price": ""
+    "house_price": None,
+    "rent": None
   },
   {
     "colour": "Dark blue",
     "index": 37,
     "name": "Park Lane",
     "value": 350,
-    "house_price": 175
+    "house_price": 175,
+    "rent": [35, 175, 500, 1100, 1300, 1500]
   },
   {
     "colour": "Dark blue",
     "index": 39,
     "name": "Mayfair",
     "value": 400,
-    "house_price": 200
+    "house_price": 200,
+    "rent": [50, 200, 600, 1400, 1700, 2000]
   }
 ]
