@@ -1,6 +1,7 @@
 `test_probabilities.py`
  - Runs a game with one player and a million dice rolls
  - Prints the probabilities of landing on each spot
+![](images/probability_distribution.png)
 
 # To be added:
 
