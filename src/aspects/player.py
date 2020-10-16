@@ -212,6 +212,7 @@ class Player:
             self.position = 10
 
     def play(self):
+        self.build_houses()
         if self.status == 0:
             return
 
