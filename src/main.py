@@ -1,4 +1,4 @@
 from aspects.board import Board
 
-b = Board(4)
-b.play(200)
+b = Board(player_count=4, log=True)
+b.play(turns=200)
