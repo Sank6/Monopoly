@@ -128,8 +128,8 @@ community = {
         "value": 10
     },
     'It is your birthday. Collect £10 from each player': {
-        "action": "receivef",
-        "value": birthday
+        "action": "birthday",
+        "value": 10
     },
     'Get out of jail free. This card may be kept until needed or sold': {
         "action": "jail card",

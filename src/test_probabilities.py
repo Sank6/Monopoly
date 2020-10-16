@@ -4,7 +4,7 @@ from aspects.player import Player
 import time
 
 start = time.time()
-b = Board()
+b = Board(log=False)
 p = Player(b)
 position_store = {}
 iterations = 1000000
