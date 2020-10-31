@@ -100,6 +100,15 @@ class Player:
             if card["action"] == "receive":
                 self.money += card["value"]
 
+            if card["action"] == "birthday":
+                self.money += len(self.board.players) * 10
+                for k in self.board.players:
+                    self.board.players[k].pay(10)
+                
+                self.board.log("It's my birthday")
+                if self.board.log_:
+                    time.sleep(1)
+
             # Jail
             if card["action"] == "jail card":
                 del getattr(self.board, pile)[-1]

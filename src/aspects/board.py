@@ -46,4 +46,8 @@ class Board:
 
     def play(self, turns=150):
         for _ in range(turns):
-            self.do_turn()
+            left_in_game = list(filter(lambda x: x.status != 0, self.players))
+            if len(left_in_game) != 1:
+                self.do_turn()
+            else:
+                return self.log("Player %s won the game" % str(left_in_game[0].player_id + 1))
