@@ -21,7 +21,5 @@
         - Build a hotel if there's one in the bank and the player will have at least £200 left after building
 
 # TBD
- - Use get out of jail free cards to skip jail time
- - Pay to get out of jail (if the player has enough money)
  - Add chance cards: `street repairs`, `general repairs`, `birthday`
  - Trading?

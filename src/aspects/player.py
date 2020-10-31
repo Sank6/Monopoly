@@ -219,9 +219,24 @@ class Player:
         self.board.log("\033[1m\033[4mPlayer %s's turn\033[0m" % str(self.player_id + 1))
 
         if self.jail != None and self.jail < 3:
-            self.board.log("Turn spent in jail")
-            self.jail += 1
-            return
+            if self.chance_jail_card:
+                self.chance_jail_card = False
+                self.board.chance_set.append({"action": "jail card","value": None})
+                self.board.log("Used get out of jail free card")
+                self.jail = None
+            elif self.community_chest_jail_card:
+                self.community_chest_jail_card = False
+                self.board.community_set.append({"action": "jail card","value": None})
+                self.board.log("Used get out of jail free card")
+                self.jail = None
+            elif self.money > 150:
+                self.pay(50)
+                self.board.log("Paid $50 to get out of jail")
+                self.jail = None
+            else:
+                self.board.log("Turn spent in jail")
+                self.jail += 1
+                return
         elif self.jail != None:
             self.jail = None
 
