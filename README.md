@@ -19,6 +19,9 @@
         - Build 3 houses or fewer if there are less left in the bank and the player will have at least £200 left after building
     - If the property has houses,
         - Build a hotel if there's one in the bank and the player will have at least £200 left after building
+ - If the player is in jail, they will always use any existing get out of jail free cards first
+    - If the player doesn't have any, but the player has over $150, the player will pay $50 to get out of jail
+    - Otherwise, the player will wait out the three turns
 
 # TBD
  - Add chance cards: `street repairs`, `general repairs`, `birthday`
