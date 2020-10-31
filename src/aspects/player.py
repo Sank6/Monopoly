@@ -126,8 +126,6 @@ class Player:
             self.pay(property_["value"])
             self.board.properties[self.position]["owned"] = self.player_id
 
-            self.build_houses()
-
     def build_houses(self):
 
         # Check which sets are owned by the player
@@ -139,7 +137,6 @@ class Player:
                     sets[property_["colour"]].append(property_)
                 else:
                     sets[property_["colour"]] = [property_]
-
         for set_colour in sets:
             set_ = sets[set_colour]
             cards_in_set = 3
@@ -221,7 +218,6 @@ class Player:
             self.position = 10
 
     def play(self):
-        self.build_houses()
         if self.status == 0:
             return
 
@@ -264,3 +260,5 @@ class Player:
                 self.pay_rent()
 
         self.position = self.position % 40
+        
+        self.build_houses()
