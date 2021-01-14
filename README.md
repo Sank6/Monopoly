@@ -4,7 +4,7 @@
 
 `test_probabilities.py`
  - Runs a game with one player and a million dice rolls
- - Prints the probabilities of landing on each spot
+ - Prints the probabilities of ending a turn on each spot
  - Graphical representation (chart.js):
 ![](images/probability_distribution.png)
 
